@@ -3,7 +3,7 @@
 }
 
 .linkIcons {
-    width:80px;
+    width:62px;
     margin:5px;
 }
 
@@ -44,4 +44,36 @@ body {
 
 .panel > .panel-heading {
     background-color: white;
+}
+
+.container {
+    max-width: 960px;
+}
+
+@media (max-width: 768px) {
+    .navbar-right a {
+        float: right;
+    }
+    .navbar-header {
+        float: left;
+    }
+}
+
+@media (max-width: 640px) {
+    .navbar-header {
+        display: inline-block;
+        width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+
+    .navbar-right a {
+        float: left;
+        display: inline-block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 33%;
+        text-align: center;
+    }
 }
