@@ -1,5 +1,5 @@
 #profilePic {
-    width:150px;
+    width:100%;
 }
 
 .linkIcons {
@@ -30,6 +30,7 @@ footer p {
 body {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png);
     margin-bottom: 60px;
+    
 }
 
 .navbar-default {
@@ -39,4 +40,8 @@ body {
 .navbar-fixed-bottom {
     background-color: #666666;
     color: white;
+}
+
+.panel > .panel-heading {
+    background-color: white;
 }
